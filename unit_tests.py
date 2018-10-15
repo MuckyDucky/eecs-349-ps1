@@ -90,4 +90,8 @@ def testPruningOnHouseData(inFile):
   print(withPruning)
   print(withoutPruning)
   print("average with pruning",sum(withPruning)/len(withPruning)," without: ",sum(withoutPruning)/len(withoutPruning))
+
+testID3AndEvaluate()
+# data = [dict(a=1, b=0, Class=1), dict(a=1, b=1, Class=1)]
+# print(ID3.class_counts(data))
   
